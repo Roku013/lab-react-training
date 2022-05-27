@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 1rem;
+}
+
+.picture {
+  padding: 1rem;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.greeting {
+  margin-top: 2rem;
+  margin-right: auto;
+  border: 2px solid black;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.random {
+  margin-top: 2rem;
+  border: 2px solid black;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.boxColor {
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.creditCard {
+  border-radius: 5px;
+  width: 350px;
+  height: 180px;
+  text-align: left;
+  padding: 0.7rem;
+  margin-top: 1rem;
+}
+
+.cardType {
+  text-align: right;
+}
+
+.cardNum {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.cardBottom {
+  margin-top: 2rem;
+  line-height: 10px;
+}
+
+.driverCard {
+  background-color: plum;
+  border-radius: 10px;
+  margin-top: 2rem;
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.driverImg {
+  margin-left: 30%;
+  width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.driverInfo {
+  margin-left: 2rem;
+}
+
+.likeButton {
+  width: 140px;
+  height: auto;
+  font-size: 2rem;
+  border-radius: 10px;
+}
